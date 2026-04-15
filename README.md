@@ -25,6 +25,7 @@ The model predicts the **future positions of pedestrians and cyclists** from pas
 ---
 
 ## trajectory-prediction-transformer
+```
 │
 ├── models/          trained models
 ├── results/         visualizations and animations
@@ -32,6 +33,7 @@ The model predicts the **future positions of pedestrians and cyclists** from pas
 ├── trajectory_prediction.ipynb
 ├── requirements.txt
 └── README.md
+```
 
 ## Model Architecture
 
