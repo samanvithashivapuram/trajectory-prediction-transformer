@@ -1,10 +1,35 @@
 # Transformer-Based Multi-Modal Trajectory Prediction
 
+
+
+## Problem Statement:
+
+Predicting future trajectories of pedestrians and cyclists is a critical component of autonomous driving systems.
+
+Given the past motion history of an agent, the task is to predict multiple plausible future trajectories.
+
+Challenges include:
+
+• Human motion uncertainty  
+• Multi-modal future behaviour  
+• Temporal dependencies in motion  
+
+This project implements a **Transformer-based trajectory prediction model** that learns motion patterns from past trajectories and predicts multiple possible futures.
+
 This project implements a **Transformer-based trajectory prediction model** using the **nuScenes dataset**.
 
 The model predicts the **future positions of pedestrians and cyclists** from past motion.
 
 ---
+
+## trajectory-prediction-transformer
+│
+├── models/          trained models
+├── results/         visualizations and animations
+├── images/          figures used in README
+├── trajectory_prediction.ipynb
+├── requirements.txt
+└── README.md
 
 ## Model Architecture
 
@@ -37,6 +62,21 @@ Future Trajectory Predictions
 • probability score for each
 
 ---
+
+## Training Details
+
+Model configuration:
+
+Embedding dimension: 128  
+Number of trajectory modes: 3  
+Prediction horizon: 6 timesteps  
+
+Optimizer: Adam  
+Loss function: Multi-modal trajectory loss  
+
+Training objective:
+
+Minimize the distance between predicted trajectories and ground truth trajectories.
 
 ## Detailed Model Architecture
 
@@ -156,23 +196,7 @@ Multiple pedestrians moving simultaneously.
 </p>
 
 ---
-## Installation
 
-```
-pip install -r requirements.txt
-```
-
----
-
-## Running
-
-Open the notebook:
-
-```
-trajectory_prediction.ipynb
-```
-
----
 
 ## Author
 Shivapuram Samanvitha
