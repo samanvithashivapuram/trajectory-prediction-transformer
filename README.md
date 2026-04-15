@@ -11,26 +11,26 @@ The model predicts the **future positions of pedestrians and cyclists** from pas
 Past Trajectory (2 seconds)  
 (x, y, vx, vy)
 
-↓
+        ↓
 
 Feature Embedding  
 Linear projection → 128 dimensional representation
 
-↓
+        ↓
 
 Transformer Encoder  
 Multi-Head Self-Attention + Feed-Forward Layers
 
-↓
+        ↓
 
 Context Vector  
 (final timestep representation)
 
-↓
+        ↓
 
 Multi-Modal Decoder
 
-↓
+        ↓
 
 Future Trajectory Predictions  
 • 3 candidate trajectories  
