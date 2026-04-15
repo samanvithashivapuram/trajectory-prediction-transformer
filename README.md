@@ -42,8 +42,19 @@ FDE ≈ 0.48
 
 ## Visualization
 
+### Research Style Demo
+Prediction branches with probability visualization.
 
-## Visualization
+<p align="center">
+<img src="results/trajectory_research_demo.gif" width="700">
+</p>
+
+---
+
+### Video Demo
+Full trajectory animation.
+
+[Watch Video](results/trajectory_prediction.mp4)
 
 ### Single-Agent Trajectory Prediction
 Example prediction with multiple possible futures.
@@ -62,20 +73,6 @@ Multiple pedestrians moving simultaneously.
 </p>
 
 ---
-
-### Research Style Demo
-Prediction branches with probability visualization.
-
-<p align="center">
-<img src="results/trajectory_research_demo.gif" width="700">
-</p>
-
----
-
-### Video Demo
-Full trajectory animation.
-
-[Watch Video](results/trajectory_prediction.mp4)
 ## Installation
 
 ```
@@ -95,5 +92,5 @@ trajectory_prediction.ipynb
 ---
 
 ## Author
-
-Trajectory prediction project using deep learning and Transformers.
+Shivapuram Samanvitha
+GitHub: https://github.com/samanvithashivapuram
