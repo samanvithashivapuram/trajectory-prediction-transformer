@@ -42,10 +42,40 @@ FDE ≈ 0.48
 
 ## Visualization
 
-![Trajectory Demo](results/trajectory_demo.gif)
+
+## Visualization
+
+### Single-Agent Trajectory Prediction
+Example prediction with multiple possible futures.
+
+<p align="center">
+<img src="results/trajectory_demo.gif" width="700">
+</p>
 
 ---
 
+### Multi-Agent Scene Prediction
+Multiple pedestrians moving simultaneously.
+
+<p align="center">
+<img src="results/multi_agent_prediction.gif" width="700">
+</p>
+
+---
+
+### Research Style Demo
+Prediction branches with probability visualization.
+
+<p align="center">
+<img src="results/trajectory_research_demo.gif" width="700">
+</p>
+
+---
+
+### Video Demo
+Full trajectory animation.
+
+[Watch Video](results/trajectory_prediction.mp4)
 ## Installation
 
 ```
