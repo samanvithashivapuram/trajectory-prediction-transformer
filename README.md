@@ -1,6 +1,8 @@
 # Transformer-Based Multi-Modal Trajectory Prediction
 
-
+<p align="center">
+<img src="results/project_banner.gif" width="1000">
+</p>
 
 ## Problem Statement:
 
